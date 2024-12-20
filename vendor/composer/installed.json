@@ -1,0 +1,65 @@
+{
+    "packages": [
+        {
+            "name": "arraypress/google-maps-static",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arraypress/google-maps-static.git",
+                "reference": "db169bbf4d3b4d33c0f7d7e80eab303e5c2a2dc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arraypress/google-maps-static/zipball/db169bbf4d3b4d33c0f7d7e80eab303e5c2a2dc7",
+                "reference": "db169bbf4d3b4d33c0f7d7e80eab303e5c2a2dc7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2024-12-19T19:55:17+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ArrayPress\\Google\\MapsStatic\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "David Sherlock",
+                    "homepage": "https://arraypress.com/"
+                }
+            ],
+            "description": "A PHP library for integrating with the Google Maps Static API in WordPress, providing static map image generation with support for markers, paths, styling, and custom overlays. Features WordPress error handling and customizable image generation.",
+            "homepage": "https://github.com/arraypress/google-maps-static/",
+            "keywords": [
+                "custom-maps",
+                "google-maps",
+                "location-display",
+                "map-generation",
+                "map-images",
+                "map-integration",
+                "map-markers",
+                "map-paths",
+                "map-snapshots",
+                "map-styling",
+                "static-maps",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/arraypress/google-maps-static/issues",
+                "source": "https://github.com/arraypress/google-maps-static"
+            },
+            "install-path": "../arraypress/google-maps-static"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

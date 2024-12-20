@@ -1,0 +1,125 @@
+/* Maps Static Test Plugin Admin Styles */
+
+.maps-static-test {
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.maps-static-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.maps-static-section h2 {
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.maps-static-form .form-table th {
+    width: 200px;
+}
+
+.maps-static-form input[type="number"] {
+    width: 100px;
+}
+
+/* Map preview styling */
+.map-preview {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.map-preview img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Map URL display */
+.map-url {
+    margin: 20px 0;
+}
+
+.map-url h4 {
+    margin: 0 0 10px 0;
+}
+
+.map-url textarea {
+    font-family: monospace;
+    resize: vertical;
+    background: #f8f9fa;
+}
+
+/* Marker inputs styling */
+.marker-inputs {
+    margin: 0;
+}
+
+.marker-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 8px;
+}
+
+.marker-input input {
+    flex: 1;
+}
+
+.marker-input .button {
+    flex: 0 0 auto;
+    padding: 0 8px;
+}
+
+.add-marker {
+    background: #28a745;
+    color: #fff;
+    border-color: #28a745;
+}
+
+.remove-marker {
+    background: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
+
+/* Settings form styling */
+.maps-static-form .description {
+    margin: 2px 0 5px;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .maps-static-form .form-table th {
+        width: 100%;
+        display: block;
+    }
+
+    .maps-static-form input[type="text"],
+    .maps-static-form input[type="number"],
+    .maps-static-form select {
+        width: 100%;
+    }
+
+    .marker-input {
+        flex-wrap: wrap;
+    }
+
+    .marker-input input {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .map-preview img {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}

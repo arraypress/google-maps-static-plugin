@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ad031e739d8d0f8935589c3580a7b66a",
+    "packages": [
+        {
+            "name": "arraypress/google-maps-static",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arraypress/google-maps-static.git",
+                "reference": "db169bbf4d3b4d33c0f7d7e80eab303e5c2a2dc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arraypress/google-maps-static/zipball/db169bbf4d3b4d33c0f7d7e80eab303e5c2a2dc7",
+                "reference": "db169bbf4d3b4d33c0f7d7e80eab303e5c2a2dc7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ArrayPress\\Google\\MapsStatic\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "David Sherlock",
+                    "homepage": "https://arraypress.com/"
+                }
+            ],
+            "description": "A PHP library for integrating with the Google Maps Static API in WordPress, providing static map image generation with support for markers, paths, styling, and custom overlays. Features WordPress error handling and customizable image generation.",
+            "homepage": "https://github.com/arraypress/google-maps-static/",
+            "keywords": [
+                "custom-maps",
+                "google-maps",
+                "location-display",
+                "map-generation",
+                "map-images",
+                "map-integration",
+                "map-markers",
+                "map-paths",
+                "map-snapshots",
+                "map-styling",
+                "static-maps",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/arraypress/google-maps-static/issues",
+                "source": "https://github.com/arraypress/google-maps-static"
+            },
+            "time": "2024-12-19T19:55:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "arraypress/google-maps-static": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
